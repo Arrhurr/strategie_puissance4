@@ -1,0 +1,8 @@
+Stratégie Puissance 4 Arthur Donou
+
+On commence à vérifier si on est premier où pas en réutilisant la logique de Grille pleine et en vérifiant si la première ligne est pleine.
+Si on est premier on jouer à la case 3. Prenons un cas où le joueur jouerais sans venir interférer. On jouerais ensuite en case 2 puis en case 4. Puis en case 1 si l'adversaire ne l'a pas boucher. Si l'adversaire l'a boucher alors on jouer en 5
+Si l'adversaire vient nous gêner comme jouer en 4 alors on verifie si le joueur s'approche d'un puissance 4 en vérifiant le nombre de pion sur les 3 case autour, donc même si il n'y a un vide entre 2 de ses pions on continue à compter. Si le total sur cette ligne en comptant le pion de base vaux 3 alors on pose au milieu.
+Si le joueur n'a pas de puissance 4 proche alors on joue encore au 3 au dessus de nous et on recommence la même stratégie.
+
+Si on est deuxième alors si le joueur n'a pas jouer en 3 alors on joue en 3. Si il y a déjà un pion alors on joue en 2,puis en 3. Si après qu'on est joué en 3 il est joué 5 alors on joue en 6. On continue ensuite la stratégie plus haut comme on est les premiers sur la ligne supérieur.
